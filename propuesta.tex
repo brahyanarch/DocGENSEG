@@ -28,7 +28,6 @@
 \tableofcontents % índice automático
 % Índice de figuras
 \listoffigures
-
 % Índice de tablas
 \listoftables
 \pagestyle{fancy} \mystyle \newpage % Aplicar el estilo de encabezado y pie de página
@@ -55,7 +54,9 @@ caracteristicas del proyecto \gls{genseg}.
 \subsection{Propósito } 
 Este es el Cambio de Berning
 \subsection{Alcance}
- 
+ \textit{Este es un texto en cursiva}
+ \espacio
+ \textbf{Y este es un texto en negrita }
 \subsection{Justificación/Resumen}
 
 
@@ -75,8 +76,21 @@ Este es el Cambio de Berning
     \label{tab:personal_info}
 \end{table}
 
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{7cm}|p{8cm}|}
+    \hline
+    \rowcolor{pastelBlue} \textbf{Nombre} & Bernardo Pari Choquehuanca \\ \hline
+    \textbf{Rol} & Programador Front-end \\ \hline
+    \rowcolor{pastelBlue} \textbf{Categoría profesional} & Ingeniería de sistemas \\ \hline
+    \textbf{Responsabilidad}& Desarrollo UI \\ \hline
+    \rowcolor{pastelBlue} \textbf{Información de contacto} & \href{mailto:bparic@est.unap.edu.pe}{\textbf{bparic@est.unap.edu.pe *}} \\ \hline
+    \end{tabular}
+    \caption{Tabla de información personal}
+    \label{tab:personal_info2}
+\end{table}
 
-
+\FloatBarrier
 
 \section{Ámbito del Sistema}
 \textbf{Nombre del sistema:} Sistema de recopilación de información en los proyectos de la \gls{dpsec}.
