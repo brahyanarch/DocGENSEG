@@ -1,0 +1,153 @@
+\documentclass[12pt,a4paper]{article}
+
+% incluyendo paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[acronym]{glossaries}
+\usepackage[table]{xcolor}
+\usepackage{milibreria}
+\usepackage{placeins}
+
+\newcommand{\dpsec}{Dirección de Proyección Social y Extensión Cultural}
+\newcommand{\genseg}{Genseg}
+\makeglossaries
+\newacronym{dpsec}{DPSEC}{Dirección de Proyección Social y Extensión Cultural}
+\newacronym{dr}{Dr.}{Doctor}
+\newacronym{etc}{etc.}{et cetera}
+\newacronym{ieee}{IEEE}{Instituto de Ingenieros Eléctricos y Electrónicos}
+\newacronym{ers}{ERS}{especificación de requisitos software}
+\newacronym{genseg}{GENSEG}{Gestor de Planes y Proyectos de la Direccion de Proyeccion Social y Extension Cultural}
+\newacronym{xp}{XP}{Extreme Programming}
+
+\graphicspath{{C:/Users/david/imagesppt}} %\incluye todos las imágenes de esa ruta
+%\graphicspath{{D:/proyectos_latex/7mo_semestre/gestion_redes/informe_de_redes/main/images}}
+\begin{document} % inicio  de documento 
+
+%\include{caratula.tex} % incluyendo la caratula
+\include{caratulas/caratula3.tex}
+\tableofcontents % índice automático
+% Índice de figuras
+\listoffigures
+
+% Índice de tablas
+\listoftables
+\pagestyle{fancy} \mystyle \newpage % Aplicar el estilo de encabezado y pie de página
+% inicio del documento
+
+
+
+
+\section{Introducción }
+Este plan de Desarrollo de software es una versión preliminar preparada para ser incluida 
+en la propuesta elaborada como respuesta el proyecto \textquotedblleft(\gls{dpsec})\textquotedblright \ Este documento
+provee una visión global del enfoque de desarrollo propuesto.
+\espacio
+En el proyecto se usa una metodologia \textbf{\gls{xp}} en la que únicamente
+se procederá a cumplir con las fases: \textbf{planificación, diseño, codificación, pruebas y lanzamiento.}
+que marca la metodologia de desarrollo de software \gls{xp}.
+Se incluirá el detalle para las fases de Análisis, Diseño, Desarrollo e Implementación.
+del sistema propuesto para la gestion de proyectos y planes.
+\espacio
+El enfoque de desarrollo propuesto constituye una configuración del proceso
+de gestion de proyectos y planes dentro de la \gls{dpsec} de acuerdo a las 
+caracteristicas del proyecto \gls{genseg}.
+
+\subsection{Propósito }
+
+\subsection{Alcance}
+ 
+\subsection{Justificación/Resumen}
+
+
+\section{Personal involucrado}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{7cm}|p{8cm}|}
+    \hline
+    \rowcolor{pastelBlue} \textbf{Nombre} & David Brahyan Larota Pilco \\ \hline
+    \textbf{Rol} & Analista, diseñador y programador \\ \hline
+    \rowcolor{pastelBlue} \textbf{Categoría profesional} & Ingeniería de sistemas \\ \hline
+    \textbf{Responsabilidad} & Análisis de información y diseño \\ \hline
+    \rowcolor{pastelBlue} \textbf{Información de contacto} & \href{mailto:dlarotap@est.unap.edu.pe}{\textbf{dlarotap@est.unap.edu.pe *}} \\ \hline
+    \end{tabular}
+    \caption{Tabla de información personal}
+    \label{tab:personal_info}
+\end{table}
+
+
+
+
+\section{Ámbito del Sistema}
+\textbf{Nombre del sistema:} Sistema de recopilación de información en los proyectos de la \gls{dpsec}.
+\espacio 
+El sistema recopila información estructurada de las actividades, planes y proyectos de los programas de estudio (44 programas de estudio).
+
+\espacio 
+Los principales beneficios en la reducción de papel, articulación con los programas de estudio, logro de indicadores institucionales y administrativos información en tiempo real oportuna procesos eficientes justo a tiempo.
+
+\subsection*{Las Metas principales son:}
+\begin{itemize}
+    \item Cobertura de 44 programas de estudio.
+    \item La dirección DPSEC y las subunidades.
+    \item Satisfacer a los 132 usuarios del sistema.
+    \item abarcar documentos estructurados como proyectos y planes.
+    
+    \end{itemize}
+    
+    
+    \subsection*{Objetivo general }
+    recopilar requisitos que tengan la información para que permita implementar el sistema de Recopilación de Datos.
+    
+    
+    \section{Definiciones, Acrónimos y Abreviaturas}
+    \subsection*{Definición}
+    \Dbox{Title}{hola a todos asmldnksjahnd jsahdklsa hdlsa hldhsajdskñaj }
+
+    \printglossaries
+
+    
+    \input{david.tex}
+    \begin{comment}
+    usuario
+\subsubsection*{Administrador} Un super administrador que administre a otro administrador, roles por facultad.
+\subsubsection*{Requisito funcional} Recopilar documento, información sobre un plan de trabajo de las 44 carreras y 3 subunidades.
+\subsubsection*{Requisito no funcional} Si se quita un rol a una unidad, se quitará para todos sin excepción .
+
+
+\subsection*{Acrónimos}
+\begin{table}[!htbp]
+    \centering
+    \caption{Acrónimos}
+    \label{tb:acronimos}
+    \begin{tabular}{cl}
+        \toprule
+        \textbf{Acronimo} & \textbf{Significado} \\
+        \midrule
+        ERS & Especificación de requisitos de Software. \\
+        UML & Lenguaje de Modelo Unificado. \\
+        API & Interfaz de Programación de Aplicaciones. \\
+        DPSEC & Dirección de Proyección Social y Extensión Cultural. \\
+        IEEE & Práctica recomendada para especificaciones de requisitos de software. \\
+        Administrador & Persona que usará el sistema para definir roles de otros administradores de menor Jerarquía. \\
+        RFA & Requerimiento Funcional Administrativo.  \\
+
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+\subsection*{Abreviaturas}
+El \gls{dr} Smith es un destacado investigador en su campo. La lista incluye manzanas, peras, \gls{etc}.
+
+\printglossaries
+\end{comment}
+
+
+\newpage
+\section{Referencias}
+\bibliographystyle{apacite}
+\bibliography{referencias.bib}
+
+
+\end{document}

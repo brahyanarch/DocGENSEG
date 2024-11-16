@@ -1,0 +1,61 @@
+\usetikzlibrary{calc}
+\begin{titlepage}
+    \centering
+    \miRectangulo{-3.2cm}{10cm}{13.7cm}{4.9cm}{azulm}{0}
+    \miRectangulo{0cm}{7.5cm}{9cm}{6cm}{azulm}{45}
+    \miRectangulo{-4cm}{-15cm}{15cm}{6cm}{azulm}{0}
+
+    \miRectangulo{-16cm}{-7cm}{10cm}{6cm}{azulm}{45}
+    \miRectangulo{-11cm}{-15cm}{9cm}{3cm}{azulm}{0}
+    \miRectangulo{-5cm}{-4.5cm}{3.5cm}{3.5cm}{azulm}{45}
+    \begin{figure}[h]
+        \miRomboImagen{-2.3}{-10.5}{images/magno.jpeg}{20}
+    \end{figure}
+    
+    \begin{textblock}{70}(135,13)
+        \begin{flushright}
+            {\large{\textcolor{white}{Dirección de Proyección Social y Extensión Cultural}}}\\
+            %{\normalsize{\textcolor{white}{Educando mentes, Cambiando el mundo}}}
+        \end{flushright} 
+    \end{textblock}
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (current page.north west) [anchor=north west, xshift=90mm, yshift=-2mm] {\includegraphics[width=0.25\textwidth]{images/logodpsecsf.png}};
+    \end{tikzpicture}
+
+    \begin{textblock}{100}(100,60)
+        \begin{flushright}
+            {\Huge{\textbf{2024}}}\\[20pt]
+            {\fontsize{50}{60}\selectfont\textbf{\MakeUppercase{\genseg}}}\\[20pt]
+            {\large{\textbf{Gestor de Proyectos de la Dirección de Proyección Social y Extensión Cultural}}}\\[15pt]
+            {\Large{\textbf{Documento de Propuesta de Desarrollo}}}\\[15pt]
+        \end{flushright} 
+    \end{textblock}
+
+    \begin{textblock}{100}(120,140)
+        \textcolor{azulm}{\rule{0.5\linewidth}{0.90mm}} \par
+    \end{textblock}
+    
+    \begin{textblock}{100}(100,160)
+        \begin{flushright}
+            {\large{\textbf{Fecha: \\[10pt] \today}}}\\[15pt]
+            {\large{\textbf{ Propuesto por: }}}\\[5pt]
+            {\large{\textbf{ Larota Pilco David Bahyan }}}\\[5pt]
+            {\large{\textbf{ Pari Choquehuanca Bernardo }}}\\[5pt]
+            {\large{\textbf{ Quispe Bravo Marco Alexander }}}\\[5pt]
+            {\large{\textbf{ Chura Cutipa Lenin Alonso }}}\\[5pt]
+            %{\large{\textbf{ Apaza Ccapa Rosmery }}}\\[5pt]
+        \end{flushright} 
+    \end{textblock}
+
+    \begin{textblock}{100}(100,256)
+        \begin{flushright}
+            {\huge{\textcolor{white}{Universidad Nacional del Altiplano}}}\\
+            {\normalsize{\textcolor{white}{Educando mentes, Cambiando el mundo}}}
+        
+        \end{flushright} 
+    \end{textblock}
+    \begin{tikzpicture}[remember picture, overlay]
+        \node at (current page.north west) [anchor=north west, xshift=50mm, yshift=-250mm] {\includegraphics[width=0.25\textwidth]{images/qr_code.png}};
+    \end{tikzpicture}
+
+\end{titlepage}
